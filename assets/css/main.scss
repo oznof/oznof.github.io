@@ -1,0 +1,62 @@
+---
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+html {
+    font-size: 12px; 
+    @include breakpoint($medium) {
+        font-size: 14px;
+    }
+    @include breakpoint($large) {
+        font-size: 16px;
+    }
+
+    @include breakpoint($x-large) {
+        font-size: 18px;
+    }
+}
+
+.page__content {
+  text-align: justify;
+}
+.sidebar__right {
+  text-align: left;
+}
+
+
+.widel {
+  .page {
+    float: left;
+    width: 100%;
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+}
+
+.pr {
+	p { margin: 10px 0;}
+  h1 {margin: 10px 0;}
+  h2 {margin: 10px 0;}
+  h3 {margin: 10px 0;}
+  h4 {margin: 10px 0;}
+}
