@@ -6,12 +6,13 @@ toc: false
 classes: wide pr
 ---
 
-I am interested in Bayesian statistics and machine learning, in particular I have been exploring Bayesian surrogates, Bayesian optimization and amortized likelihood-free inference.
+I am interested in Bayesian statistics and machine learning, having focused on Bayesian optimization with Gaussian process surrogates and amortized likelihood-free inference.
 
-For instance, while there has been work towards the design of black-box inference methods, bespoke solutions can exploit additional information to increase sample efficiency.
-I have designed and developed a class of [informative priors over functions](/mlprojects/#informative-covariance) that leverage nonstationarity to encode preferences, accelerating optimization and inference even under weak prior information.
+For instance, while there has been a push to develop more black-box methods, bespoke approaches can exploit additional information to increase sample efficiency. As part of my PhD research, I have designed and developed a class of [informative priors over functions](/mlprojects/#informative-covariance) that leverage nonstationarity to encode preferences, accelerating optimization and inference even under weak prior information.
 
-Relatedly, I have also proposed a [new active sampling method](/mlprojects/#mode-collapsed-acquisition-functions) that leads to more informative samples compared to the traditional acquisition methods used in Bayesian optimization. The method is based on the idea of sequential Laplace approximation, or sequential mode-seeking variational inference, with mode collapse.
+I have also proposed a [new active sampling method](/mlprojects/#mode-collapsed-acquisition-functions) that leads to more informative samples compared to the traditional acquisition methods used in Bayesian optimization. This method is based on the concept of sequential Laplace approximation, or sequential mode-seeking variational inference, with mode collapse.
+
+
 
 <span style="font-size:25px">**Education**</span>
 

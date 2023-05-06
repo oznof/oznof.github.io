@@ -6,6 +6,7 @@ repository: oznof/oznof.github.io
 url: "https://oznof.github.io"
 minimal_mistakes_skin: dark
 search: false
+google_site_verification : zAJ6FKCJvumOi539WBkQmwAHtRty-4n7IlP6aIs571Q
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -38,10 +39,20 @@ plugins:
 author:
   name             : "Afonso Eduardo"
   avatar           : "/assets/images/AfonsoEduardo.jpg"
-  bio              : "PhD student in Machine Learning<br>University of Edinburgh<br>School of Informatics, ANC"
+  bio              : #
   location         : #
-  email            : "aflm.eduardo@gmail.com"
-  github           : "oznof"
+  # email            : "aflmeduardo@gmail.com"
+  # github           : "oznof"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aflmeduardo@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/oznof"
+    - label: "Curriculum Vitae"
+      icon: "fas fa-fw fa-book"
+      url: "/assets/docs/cv.pdf"
 
 defaults:
   - scope:
